@@ -154,7 +154,7 @@ input[type="search"]{
 aside{
     position: sticky;
     top: 3.5rem;
-    width: 13vw;
+    width: 14vw;
 }
 .aside-container{
     float: left;
@@ -230,7 +230,7 @@ footer > p{
 
 /* main section */
 section{
-    width: calc(100vw - 13vw);
+    width: calc(100vw - 14vw);
     float: left;
     display: flex;
     flex-direction: column;
@@ -265,6 +265,14 @@ section{
     border: 1px solid rgba(255, 255, 255, 0.1);
     background-color: rgba(255, 255, 255, 0.1);
     margin:  0 0.4rem 0 0.4rem;
+    transition: all 0.2s ease;
+}
+.your-choice > button:hover{
+    background-color: rgba(255, 255, 255, 0.199);
+}
+.your-choice > .clicked{
+    background-color: rgba(255, 255, 255, 0.747);
+    color: black;
 }
 .your-choice > .arrow-btn{
     position: absolute;
@@ -276,6 +284,9 @@ section{
     margin: 0;
     border-radius: 0;
     box-shadow: -16px 0px 10px 0px #212121;
+    background-color: #212121fa;
+}
+.your-choice > .arrow-btn:hover{
     background-color: #212121fa;
 }
 

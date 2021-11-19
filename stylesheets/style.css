@@ -75,8 +75,8 @@ a{
 /* -------------------- navbar -------------------- */
 nav{
     position: sticky;
-    top: 0;
     position: -webkit-sticky;
+    top: 0;
     background-color: rgba(33, 33, 33, 0.9);
 }
 .nav-container{
@@ -153,6 +153,7 @@ input[type="search"]{
 /* left side options */
 aside{
     position: sticky;
+    position: -webkit-sticky;
     top: 3.5rem;
     width: 14vw;
 }
@@ -193,7 +194,7 @@ aside{
     font-weight: 400;
 }
 .line-brake{
-    width: 100%;
+    width: 12.5vw;
     height: 1px;
     margin: 0.7rem 0;
     background-color: rgba(255, 255, 255, 0.123);
